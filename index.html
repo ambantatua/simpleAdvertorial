@@ -12,19 +12,114 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-	<div class="container" style="border: solid 1px red">
-		<div class="bannerWrapper" style="border: solid 1px green">
-			<img alt="Money Morning banner" src="https://www.moneymorning.com.au/wp-content/uploads/2018/06/mmSignupPageLogo.png">
-		</div>
+	<div class="row bannerBG">
+		<a class="homeLink" href="https://www.moneymorning.com.au" target="_blank">
+			<img class="img-fluid bannerImg" alt="Money Morning banner" src="https://www.moneymorning.com.au/wp-content/uploads/2018/06/mmSignupPageLogo.png">
+		</a>
+	</div>
+	<div class="container">
 		<div class="row">
-			<h1>This is an example of a main heading</h1>
-			<div class="col-md" style="border: solid 1px blue">
-				Column One
-			</div>
-		</div>
+			<h1>Example of a main heading flowing to the next line</h1>
+			<img class="img-fluid customImage" src="http://amberbantatua.com/images/customImage.jpg" alt="Custom Image" >
+			<div class="col-md mainText">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat erat massa, id semper ante volutpat sit amet. Cras tristique fringilla quam, ut laoreet ex rutrum sit amet. Sed a fermentum felis, pellentesque imperdiet diam. Mauris facilisis iaculis dui, sed tempor sem laoreet et. Donec egestas lacus in ante bibendum elementum. Pellentesque id volutpat ligula, in dapibus lectus. Donec vestibulum, quam nec ultricies euismod, tortor nulla vestibulum metus, in consectetur nunc dui eu orci. Nunc elit eros, ornare id varius eu, blandit in libero. Donec vestibulum, metus et aliquam consequat, turpis augue vestibulum tortor, at convallis elit dui non tortor. Maecenas hendrerit velit et dignissim bibendum.
+				</p>
+				<p>
+					Mauris id sollicitudin metus, sed porttitor felis. Nam porttitor augue laoreet elit suscipit dapibus et posuere ex. Morbi ut faucibus dolor. Suspendisse ligula nisl, rutrum id ex ut, tempus aliquet augue. Suspendisse potenti. Phasellus feugiat posuere eros sed pharetra. Pellentesque volutpat felis eros, ut eleifend sapien lacinia sed. Vivamus eu eleifend lorem. Duis accumsan elementum nibh. Donec quis tristique lacus. Donec tortor quam, euismod ac risus id, mattis condimentum justo. Integer vehicula justo turpis, eu rutrum nisi vehicula et. Morbi eu congue magna, in mattis lorem. Pellentesque elit metus, mattis eu vehicula id, suscipit et dui. Donec quis euismod ante. Sed mattis diam vitae lacinia dictum.
+				</p>
+				<p>
+					Aliquam id dignissim metus, a vulputate massa. Quisque facilisis, erat non porta sagittis, leo arcu interdum nibh, rutrum porttitor libero lectus at lectus. Nunc at ex magna. Fusce convallis nec neque at aliquam. Sed diam felis, pretium eget cursus eu, commodo id ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer quis justo a nibh venenatis euismod vitae imperdiet quam. Curabitur sagittis suscipit mi ac imperdiet. Vivamus euismod tellus eleifend velit laoreet vulputate. Aliquam id tellus vulputate, egestas nibh euismod, eleifend enim. Phasellus maximus libero vitae est ullamcorper, quis elementum justo posuere. Suspendisse accumsan ante ante, condimentum ullamcorper est auctor ac. Vestibulum lacus odio, cursus in risus non, viverra faucibus nibh. Duis ultricies enim eget velit aliquet pharetra non nec urna. Praesent blandit, tortor sit amet laoreet imperdiet, turpis odio posuere dolor, nec tristique risus mauris a lorem. Sed vitae luctus lorem.
+				</p>
+				<p>
+					Ut consequat eleifend erat, pretium scelerisque lacus accumsan quis. Nulla eget magna vel ante faucibus volutpat non et diam. Integer hendrerit, augue quis posuere scelerisque, turpis erat tincidunt mi, at pulvinar sem turpis et sapien. Mauris mollis nulla eget massa blandit, quis porttitor ligula malesuada. Donec pulvinar maximus est at molestie. Pellentesque et porta magna, quis luctus turpis. Fusce leo sem, dapibus non porttitor in, cursus a nulla. Mauris vel iaculis mi. Nullam sed consectetur felis. Praesent et semper mi, sed hendrerit augue.
+				</p>
+				<div class="formWrapper">
+					<form class="signupForm" action="https://signup.moneymorning.com.au/Content/SaveFreeSignups" id="LeadGen" method="post" name="signupForm">
+						<input style="display: none;" name="source" type="hidden" value="#PROMOCODE#"> 
+						<input style="display: none;" name="list" type="hidden" value="moneymor"> 
+						<input style="display: none;" name="adTopic" type="hidden" value="looptirement"> 
+						<input style="display: none;" name="NotSaveSignup" type="hidden" value="False"> 
+							<div class="form-group">
+								<input class="signupEmail" id="email" name="email" placeholder=" Email address" required="true" size="20" type="email" value> 
+							</div>
+							<div class="form-group">
+								<input class="signupButton" alt="Send My FREE Report" type="submit" value="Send My FREE Report">
+							</div>
+							<small class="form-text text-muted">
+								We will collect and handle your personal information in accordance with our <a href="https://www.moneymorning.com.au/mm-privacy-policy">Privacy Policy</a> <br> You can cancel your subscription at any time.
+							</small>
+					</form>
+				</div>
+				<p style="font-size:16px;font-weight:700;">
+					<strong>How <em>Money Morning</em> can make you a better, richer investor.</strong>
+				</p>
+				<p>
+					Edited by Harje Ronngard, with contributions from Sam Volkering and Greg Canavan, <em>Money Morning</em> isn&rsquo;t afraid to tell it like it is. From calling politicians out on the big issues, to taking the mighty housing industry on single-handedly, <em>Money Morning</em> exists to cut through the hype and help you make sense of the stories that REALLY make a difference to your wealth.
+				</p>
+				<p>
+					Harje Ronngard is the lead Editor at <em>Money Morning</em>. With an academic background in finance and investments, Harje knows how simple, yet difficult investing can be. He has worked with a range of assets classes, from futures to equities. But he&rsquo;s found his niche in equity valuation. There are two questions Harje likes to ask of any investment. What is it worth? And how much does it cost? These two questions alone open up a world of investment opportunities, which Harje shares with <em>Money Morning</em> readers each day.
+				</p>
+				<p>
+					Harje and the <em>Money Morning</em> team cover share market developments, company announcements and economic events that may affect your wealth. They&rsquo;ll take anyone to task &mdash; banks, governments, big business &mdash; if they think someone is trying to pull a fast one with your money.
+				</p>
+				<p>
+					Whether you agree with Harje, Sam, Greg and the rest of the <em>Money Morning</em> team or not, you&rsquo;ll find their common-sense, thought-provoking arguments well worth a read &mdash; and you&rsquo;ll soon realise why <em>Money Morning</em> is the biggest circulation daily financial email in Australia.
+				</p>
+				<p>
+					But don&rsquo;t take my word for it &mdash; start your <em>Money Morning</em> adventure today&hellip;
+				</p>
+				<p>
+					<em>Money Morning</em> is 100% free and delivered to your inbox every morning, six days a week. You&rsquo;ll never be charged a cent to read it.
+				</p>
+			</div><!-- end .col-md mainText -->
+		</div><!-- end .row -->
 	</div><!-- end .container -->
+	<footer>
+		<div class="footerImage">
+			<a class="homeLink" href="https://www.moneymorning.com.au" target="_blank">
+				<img class="img-fluid" alt="Money Morning logo" src="https://www.moneymorning.com.au/wp-content/uploads/2015/03/logo-header.png">
+			</a>
+		</div>
+		<div class="row footerLinks">
+		    <div class="col-sm">
+		      <a href="https://www.moneymorning.com.au" target="_blank">Home</a>
+		    </div>
+		    <div class="col-sm">
+		      <a href="https://www.moneymorning.com.au/about-money-morning" target="_blank">About Us</a>
+		    </div>
+		    <div class="col-sm">
+		      <a href="https://www.moneymorning.com.au/mm-privacy-policy" target="_blank">Privacy Policy</a>
+		    </div>
+		    <div class="col-sm">
+		    	<a href="https://www.moneymorning.com.au/contact-money-morning" target="_blank">Contact</a>
+		    </div>
+		    <div class="col-sm">
+		    	<a href="https://www.moneymorning.com.au/faq" target="_blank">FAQ</a>
+		    </div>
+		  </div>
+		<div class="footerText">
+			<p>
+				<iframe style="width:100%; border: 0px; height: 20px; padding: 0px;" scrolling="no" seamless="seamless" src="https://www.moneymorning.com.au/external/mm-date.php"></iframe>
+			</p>
+			<p>
+				All Rights Reserved. Money Morning Australia ISSN:1834&ndash;3104.
+			</p>
+			<p>
+				Port Phillip Publishing holds an Australian Financial Services Licence: 323 988. <br>ACN:117 765 009 ABN:33 117 765 009
+			</p>
+			<p>
+				<a href="https://www.moneymorning.com.au/terms-and-conditions">Terms and Conditions</a> | 
+				<a href="https://www.moneymorning.com.au/mm-privacy-policy">Privacy Policy</a> | 
+				<a href="https://www.moneymorning.com.au/pdfs/Financial-Services-Guide.pdf">Financial Services Guide</a>
+			</p>
+		</div>
+	</footer>
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
